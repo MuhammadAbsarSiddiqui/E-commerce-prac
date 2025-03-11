@@ -11,6 +11,7 @@ body{
     height: fit-content;
     padding: 10px 0;
     display: flex;
+    justify-content: space-around;
     border-bottom: 4px solid black;
     
 }
@@ -37,6 +38,15 @@ body{
     font-size: 20px;
     padding-inline: 40px;
     
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.search
+{
+    align-items:center;
+    padding: 15px;
 }
 /* navbar end here */
 .one {
@@ -139,7 +149,7 @@ body{
     margin: 10px;
     padding: 10px;
     background-color: #b5bac4;
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid black;
 }
 .five h1 {
     text-align: center;
@@ -206,4 +216,36 @@ form button{
     cursor: pointer;
     margin-top: 10px;
     border:2px solid black;
+}
+
+/* form for contactus ends here */
+footer{
+    margin: 0 0px;
+    border-top: 4px solid black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.footer1 ul li{
+    list-style-type: none;
+}
+.footer1 ul li a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.footer2
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.last{
+    text-align: center;
+    padding: 4px;
+
 }
