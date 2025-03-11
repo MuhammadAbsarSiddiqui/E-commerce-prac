@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b5bac4;
+}
+.nav{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0;
+    display: flex;
+    border-bottom: 4px solid black;
+    
+}
+.logo{
+   
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+}
+.nav ul{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.nav ul li{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-inline: 40px;
+    
+}
+/* navbar end here */
+.one {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://savilerowco.com/cdn/shop/files/MID-SEASON-SALE_10MAR_desktop_V2_bb031b4f-6db0-4f9a-a957-4867d97cbf9b.jpg?v=1741353929&amp;width=1920");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.one button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 500px 500px 0px 700px;  
+    cursor: pointer;
+    border:2px solid black;
+    border-color:  brown;
+}
+/* picture div ends here */
+
+.two{
+    height: 100px   ;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0px;
+    margin: 20px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.two button{
+    background-color: white;
+    color: black;
+    height: fit-content;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border:2px solid black;
+}
+.three{
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+/* products wala section */
+.four{
+    height: fit-content;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.custom1{
+    background-image: url("https://savilerowco.com/cdn/shop/files/Mens-tailoring.jpg?v=1741009367&width=767");
+    height: 779px;
+    width: 50%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.custom2{
+    background-image: url("	https://savilerowco.com/cdn/shop/files/Get-personal.jpg?v=1741017480&width=767");
+    height: 779px;
+    width: 767px;
+    background-size:767px 790px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.four1{
+    text-align: center;
+    color:azure;
+    padding-top: 81%;
+}
+.four1 button{
+    background: none;
+    padding: 20px 29px;
+    border:solid 2px white;
+    color: white;
+    
+}
+.four1 button :hover {
+    color: black;
+    background-color: white;
+}   
+/* customization wala section ends here */
+
+.five{
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b5bac4;
+    border-bottom: 4px solid black;
+}
+.five h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:xx-large;
+}
+.product{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.productimg
+{
+    width: 300px;
+}
+.productimg h4{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+}
+.productimg img{
+    border-radius: 10px;
+}
+.productimg p{
+    text-align: end;
+}
+.six{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+.six h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:xx-large;
+}
+form{
+    width: 400px;
+}
+form input {
+    border: none;
+    background:none;
+    font-size: medium;
+    width: 400px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+form button{
+    color: white;
+    background-color: black;
+    height: fit-content;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border:2px solid black;
+}
