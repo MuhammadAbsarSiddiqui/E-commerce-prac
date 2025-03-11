@@ -9,7 +9,7 @@ body{
     background-color: #b5bac4;
     width: 100%;
     height: fit-content;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     display: flex;
     justify-content: space-around;
     border-bottom: 4px solid black;
@@ -17,12 +17,15 @@ body{
 }
 .logo{
    
-    color: black;
+    /* color: black;
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 40px;
+    size: 50px; */
+    padding-top: 5px;
+
 }
 .nav ul{
     display:flex ;
@@ -37,16 +40,29 @@ body{
     font-weight: bold;
     font-size: 20px;
     padding-inline: 40px;
+    padding-top: 10px;
     
 }
 .nav ul li a{
     text-decoration: none;
     color: black;
 }
+.nav ul li a:hover{
+    color:ghostwhite;
+}
 .search
 {
     align-items:center;
-    padding: 15px;
+    padding-top: 25px;
+}
+.btnsearch{
+    background-color: black ; 
+    color: azure; padding: 5px;
+}
+.btnsearch:hover {
+    background-color: white;
+    color: black;
+    border: none;
 }
 /* navbar end here */
 .one {
@@ -71,8 +87,7 @@ body{
 /* picture div ends here */
 
 .two{
-    height: 100px   ;
-    /* background-color: white; */
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -90,6 +105,10 @@ body{
     cursor: pointer;
     margin-top: 10px;
     border:2px solid black;
+}
+.two button:hover{
+    color: white;
+    background-color: black;
 }
 .three{
     width: auto;
@@ -128,9 +147,10 @@ body{
 
 .four1{
     text-align: center;
-    color:azure;
+    color:whitesmoke;
     padding-top: 81%;
 }
+
 .four1 button{
     background: none;
     padding: 20px 29px;
@@ -138,7 +158,7 @@ body{
     color: white;
     
 }
-.four1 button :hover {
+.btn4:hover {
     color: black;
     background-color: white;
 }   
@@ -208,7 +228,7 @@ form input {
     padding: 10px;
     
 }
-form button{
+.formbtn{
     color: white;
     background-color: black;
     height: fit-content;
@@ -216,6 +236,11 @@ form button{
     cursor: pointer;
     margin-top: 10px;
     border:2px solid black;
+}
+.formbtn:hover{
+    color:black;
+    background-color: white;
+    border: none;
 }
 
 /* form for contactus ends here */
@@ -239,6 +264,9 @@ footer{
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }  
+.footer1 ul li a:hover{
+    color: whitesmoke;
+}
 .footer2
 {
     font-family: 'Courier New', Courier, monospace;
@@ -248,4 +276,10 @@ footer{
     text-align: center;
     padding: 4px;
 
+}
+.icon{
+    fill: black;
+}
+.icon:hover{
+    fill:whitesmoke;
 }
